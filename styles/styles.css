@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1d283a;
+    color: white;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    border: 2px solid red;
+}
+
+.upper-box {
+    background-color: #344356;
+    height: 50px;
+}
+
+.lower-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cal-btn {
+    height: 60px;
+    width: 60px;
+    background-color: #344356;
+    color: white;
+    margin: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+i {
+    align-items: center;
+    background-color: #344356;
+}
