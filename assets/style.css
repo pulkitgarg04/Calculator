@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1d283a;
+    color: white;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 1rem;
+    padding: 1rem 0 0 1rem;
+}
+
+.container {
+    box-shadow: 0rem 0rem 0.25rem 0.0625rem rgb(150, 149, 149);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#display {
+    width: 95%;
+    margin: 10px 2.5% 10px 2.5%;
+    padding: 0 8px 0 8px;
+    height: 3rem;
+    font-size: 2rem;
+    border: 1px solid rgb(150, 149, 149);
+    border-radius: 5px;
+}
+
+.number {
+    font-weight: bold;
+}
+
+span, sub {
+    background-color: #344356;
+}
+
+.cal-btn {
+    height: 40px;
+    width: 60px;
+    margin: 5px;
+    background-color: #344356;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    border-radius: 5px;
+}
+
+.cal-btn:hover {
+    background-color: rgb(176, 176, 176);
+}
